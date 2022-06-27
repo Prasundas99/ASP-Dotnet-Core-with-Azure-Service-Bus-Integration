@@ -1,18 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace SBReciver.Model
+namespace SBShared.Models
 {
-    internal class PersonModel
-    
+    public class PersonModel
     {
         [Required]
-        public string FirestName { get; set; }
-       
+        public string FirstName { get; set; }
+
         [Required]
         public string LastName { get; set; }
     }
