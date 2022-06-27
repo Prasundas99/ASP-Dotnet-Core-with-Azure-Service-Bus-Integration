@@ -1,4 +1,6 @@
-﻿namespace SBSender.Services
+﻿using System.Threading.Tasks;
+
+namespace SBSender.Services
 {
     public interface IQueueService
     {
